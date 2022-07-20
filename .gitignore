@@ -1,0 +1,11 @@
+./
+../
+.DS_Store
+.git/
+.gitignore
+.terraform/
+.terraform.lock.hrl
+my-project-key
+my-project-key.pub
+.*
+!/.gitignore
