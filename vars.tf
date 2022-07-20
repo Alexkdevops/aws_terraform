@@ -26,10 +26,6 @@ variable USERNAME {
 #     default = ["${chomp(data.http.myip.body)}/32"] 
 # }
 
-# data "http" "myip" {
-#   url = "http://ipv4.icanhazip.com"
-# }
-
 variable rmquser {
     default = "rabbit"
 }
@@ -51,7 +47,7 @@ variable instance_count {
 }
 
 variable VPC_NAME {
-    default = "default"
+    default = "default-terraform"
 }
 
 variable Zone1 {
