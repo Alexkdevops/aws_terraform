@@ -30,6 +30,10 @@ variable rmquser {
     default = "rabbit"
 }
 
+variable rmqpass {
+    default = "rabbit"
+}
+
 variable dbname {
     default = "accounts"
 }
